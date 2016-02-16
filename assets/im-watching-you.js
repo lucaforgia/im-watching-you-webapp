@@ -2546,7 +2546,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("im-watching-you/app")["default"].create({"name":"im-watching-you","version":"0.1.0+df108391"});
+  require("im-watching-you/app")["default"].create({"name":"im-watching-you","version":"0.1.0+c2a03b8a"});
 }
 
 /* jshint ignore:end */

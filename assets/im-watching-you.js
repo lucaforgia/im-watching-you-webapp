@@ -1840,6 +1840,7 @@ define('im-watching-you/tasks/show/route', ['exports', 'ember'], function (expor
 			return this._super(model, transition);
 		},
 
+		// changed, no need setInterval, just check date at start and at the end-stop
 		// chroneRun(task){
 		// 	// this is the route, binded, see this.chroneRun.bind in afterModel method;
 		// 	var _t = this;
